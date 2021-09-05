@@ -1,0 +1,860 @@
+
+/*==============none elements full size================== */
+
+@media(min-width:766px){
+    .menu-section2 {
+        display: none;
+    }
+
+    .menu-section2 on {
+        display: none;
+    }
+
+    .img_wrapper_mobile{
+        display: none;
+    }
+    .rest_header_mobile button{
+        display: none;
+    }
+    .logo_wrapper_mobile{
+        display: none;
+    }
+
+    .menu-section2_mobile{
+        display: none;
+    }
+
+    .rest_header_mobile {
+        display: none;
+    }
+
+    .servicosmob{
+        display: none;
+    }
+
+    .diffmob{
+        display: none;
+    }
+
+    .rodapemob{
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+/*==============low-desktop================== */
+
+@media(max-width:1280px){
+    .rest_header p{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .rest_header button{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: rgb(13, 189, 192);
+        border: none;
+    
+        border-radius: 45px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0px;
+        font-size: .8rem;
+        cursor: pointer;
+        margin-left: 18rem;
+        width: 13rem;
+        height: 3rem;
+    }
+    .servicos div{
+        width:30%;
+        height:30%;
+
+    }
+}
+
+@media(max-width: 1040px){
+    html{
+        font-size: 75%;
+    }
+}
+
+    .rest_header p{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+@media (max-width:950px){
+
+    .rest_header h1{
+        color: white;
+        font-size: 4.5rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 5.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .rest_header p{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .rest_header button{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: rgb(13, 189, 192);
+        border: none;
+    
+        border-radius: 45px;
+        text-transform: uppercase;
+        text-align: center;
+    
+        font-size: .8rem;
+        cursor: pointer;
+        margin-left: 18rem;
+        width: 13rem;
+        height: 3rem;
+    }
+}
+
+
+
+
+/*==============mobile================== */
+
+@media(max-width:765px){
+
+    .container{
+        background-image: none;
+    }
+
+    .menu-section2 nav{
+        display: none;
+    }
+
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header{
+        margin: auto;
+        width: 84%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    .img-wrapper{
+        display: none;
+    }
+    .rest_header button{
+        display: none;
+    }
+    .logo-wrapper{
+        display: none;
+    }
+
+    .menu-section{
+        display: none;
+    }
+
+    .rest_header {
+        display: none;
+    }
+
+    .servicos{
+        display: none;
+    }
+    
+    .diferencias{
+        display: none;
+    }
+
+    .rodape{
+        display: none;
+    }
+
+        /* ===================== img_wrapper_mobile ======================= */
+
+    .img_wrapper_mobile{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_wrapper_mobile img{
+        width: 100%;
+        height: 100%;
+    }
+        /* ===================== logo_wrapper_mobile ======================= */
+
+    .logo_wrapper_mobile img{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        width: 8.5rem;
+    }
+    /* ===================== rest_header_mobile ======================= */
+    .rest_header_mobile{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    
+    .rest_header_mobile h1{
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 5.5rem;
+        margin-left: 1rem;
+        margin-bottom: 5rem;
+        margin-top: -1rem;
+        text-align: center;
+    }
+    
+    .rest_header_mobile p{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin-left: -1rem;
+        line-height: 1rem;
+        font-size: 80%;
+    }
+    
+    .rest_header_mobile button{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: rgb(13, 189, 192);
+        border: none;
+    
+        border-radius: 45px;
+        text-transform: uppercase;
+        text-align: center;
+    
+        margin-top: 5rem;
+        font-size: .8rem;
+        cursor: pointer;
+        margin-left: 2rem;
+        margin-right: 0rem;
+        width: 18.5rem;
+        height: 3rem;
+    }
+    
+    .rest_header_mobile button:hover{
+        opacity: 0.8;
+    }
+
+    /* ===================== menu-hamburger ======================= */
+
+    .line{
+        background-color: white;
+        height: 5px;
+        margin: 6px auto;
+        width: 100%;
+    }
+
+    .menu-hamburguer{
+        position: absolute;
+        right: 1rem;
+        top: 2rem;
+        left: 2rem;
+        width: 5rem;
+    }
+
+    .menu-hamburguer:hover{
+        cursor: pointer;
+    }
+
+    .menu-hamburguer{
+        width: 50px;
+        height: 50px;
+    }
+
+    #line1{
+        top: 1rem;
+        left: 6rem;
+    }
+    #line2{
+        top: 2rem;
+        left: 6rem;
+    }
+
+    #line3{
+        top: 3rem;
+        left: 6rem;
+    }
+
+    /* ===================== menu-section2 ======================= */
+    
+    .menu-section2.on{
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+
+        background-color: black;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.6s;
+    }
+
+    .menu-section2.on nav{
+        display: block;
+    }
+    
+    .menu-section2.on nav ul {
+        margin-top: 50px;
+    }
+
+    .menu-section2.on nav ul li{
+        border-bottom: rgb(126, 110, 110) solid 3px;
+        text-align: center;
+    }
+
+    .menu-section2.on nav ul a {
+        font-size: 3rem;
+        line-height: 8rem;
+        text-decoration: none;
+        color: white;
+        font-family: "Open Sans", serif ;
+    }
+
+    .menu-item{
+        text-transform: uppercase;
+    }
+
+
+
+
+    .sobre{
+        height:75rem;
+        position: relative;
+        margin-right: 6.6rem ;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        margin-left: 1rem;
+        display: block;
+    }
+    
+    .sobre h1{
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 4rem;
+        text-transform: uppercase;
+        display: black;
+    
+    }
+    
+    .sobre-p{
+        padding: 2rem;
+        background-color: white;
+        box-shadow:  8px 8px 48px 0 rgba(0,0,0,0.5);
+        position: absolute;
+        margin-right: 5rem;
+        width: 20rem;
+        height: 55rem;
+        display: block;
+    }
+    
+    .servicosmob{
+        position: relative;
+        height:  100rem;
+    }
+
+    .servdivmob{
+        position: absolute;
+    }
+
+    .servicosmob h1{
+        position: absolute;
+        top: 1rem;
+        left:4rem;
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .servdivmob h2{
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+        color: white;
+    }
+
+    .servdivmob img{
+        width: 100%;
+    }
+
+    .servdivmob p{
+        position: absolute;
+        top: 12rem;
+        left: 5rem;
+        color: white;
+    }
+
+    #servdivmob1{
+        position: absolute;
+        top: 10rem;
+    }
+
+    #servdivmob2{
+        top: 38rem;
+        position: absolute;
+    }
+
+    #serdivmob3{
+        top: 40rem;
+        position: absolute;
+    }
+
+
+
+    .diffmob{
+        position: relative;
+        height: 100rem;
+        margin: auto;
+    }
+
+    .diffmob h1{
+        position: absolute;
+        top: 1rem;
+        left: 4rem;
+        font-size: 3rem;
+    }
+    
+    .div_mobdiff{
+        width: 29rem;
+        position: absolute;
+    }
+
+    .div_mobdiff img{
+        width: 100% ;
+    }
+
+    .div_mobdiff .fa-medal{
+        position: absolute;
+        left: 12rem;
+        top: 4rem;
+        font-size: 8rem;
+    }
+
+    .div_mobdiff p{
+        position: absolute;
+        top: 15rem;
+        left: 7rem;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #div_mobdiff1{
+        top: 10rem;
+    }
+
+    #div_mobdiff2{
+        top: 45rem;
+    }
+
+    #div_mobdiff3{
+        top: 80rem;
+    }
+
+    .rodapemob{
+        height: 90rem;
+        width: 35rem;
+        position: relative;
+        border-top: rgb(216, 216, 16) solid 2rem;
+        border-bottom: solid 2rem rgb(216, 216, 16) ;
+        top: 30rem;
+        margin: 1rem;
+    }
+
+    .infosmob{
+        height: 50rem;
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .logmob{
+        height: 3.5rem;
+        padding: 1.5rem;
+    }
+    .logmob i {
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .logmob img{
+        margin-right: 5rem;
+    }
+
+    .moremob{
+        height: 5rem;
+    }
+
+    .moremob p{
+        color: white;
+        display: inline-block;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .moremob i {
+        color:yellow;
+    }
+
+    .endmob{
+        height: 4rem;
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .endmob p{
+        margin-left: 1.5rem;
+        
+    }
+
+    .parasmob{
+        font-size: 1.4rem;
+        font-family: 'Montserrat', sans-serif;
+        height: 45rem;
+    }
+
+    .parasmob p{
+        color: rgba(255, 255, 255, 0.644);
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .formob{
+        height: 40rem;
+        display: block;
+        background-color: grey;
+    }
+
+    .formob .inputmob{
+        height: 2rem;
+        width: 80%;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        border: none;
+    }
+
+    .formob .buttonmob{
+        width: 81%;
+        height: 6rem;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        background-color: rgb(13, 189, 192);
+    }
+
+    #mensagemmob {
+        height: 13rem;
+        width: 80%;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        border: none;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================== iphone 6/7/8 ======================= */
+
+@media(max-width:414px){
+    .img_wrapper_mobile{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_wrapper_mobile img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo_wrapper_mobile img{
+        position: absolute;
+        top: 4%;
+        left: 45%;
+        width: 7.5rem;
+    }
+
+    .rest_header_mobile{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    
+    .rest_header_mobile h1{
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 5.5rem;
+        margin-bottom: 5rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .rest_header_mobile p{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin-left: -1rem;
+    }
+    
+    .rest_header_mobile button{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: rgb(13, 189, 192);
+        border: none;
+    
+        border-radius: 45px;
+        text-transform: uppercase;
+        text-align: center;
+    
+        margin-top: 5rem;
+        font-size: .8rem;
+        cursor: pointer;
+        margin-left: 3rem;
+        margin-right: 0rem;
+        width: 18.5rem;
+        height: 3rem;
+    }
+
+    .menu-section2.on nav ul a {
+        font-size: 1rem;
+    }
+
+    .sobre{
+        height:40rem;
+        position: relative;
+        margin-right: 6.6rem ;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        margin-left: 1rem;
+        display: block;
+    }
+
+    .sobre h1{
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 4rem;
+        text-transform: uppercase;
+        display: black;
+
+    }
+
+    .sobre-p{
+        padding: 2rem;
+        background-color: white;
+        box-shadow:  8px 8px 48px 0 rgba(0,0,0,0.5);
+        position: absolute;
+        margin-right: 5rem;
+        width: 20rem;
+        height: 55rem;
+        display: block;
+    }
+
+    .servicosmob{
+        position: relative;
+        height:  115rem;
+    }
+
+    .servdivmob{
+        position: absolute;
+    }
+
+    .servicosmob h1{
+        position: absolute;
+        top: 35rem;
+        left:4rem;
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .servdivmob h2{
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+        color: white;
+    }
+
+    .servdivmob img{
+        width: 100%;
+    }
+
+    .servdivmob p{
+        position: absolute;
+        top: 12rem;
+        left: 5rem;
+        color: white;
+    }
+
+    #servdivmob1{
+        position: absolute;
+        top: 40rem;
+    }
+
+    #servdivmob2{
+        top: 65rem;
+        position: absolute;
+    }
+
+    #servdivmob3{
+        top: 25rem;
+        position: absolute;
+    }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ===================== iphone x ======================= */
+
+@media(max-width:375px){
+
+
+    .img_wrapper_mobile{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_wrapper_mobile img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo_wrapper_mobile img{
+        position: absolute;
+        top: 4%;
+        left: 45%;
+        width: 7.5rem;
+    }
+
+    .rest_header_mobile{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    
+    .rest_header_mobile h1{
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 5.5rem;
+        margin-bottom: 5rem;
+        margin-left: -2rem;
+        text-align: center;
+    }
+    
+    .rest_header_mobile p{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin-left: -2.3rem;
+    }
+    
+    .rest_header_mobile button{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: rgb(13, 189, 192);
+        border: none;
+    
+        border-radius: 45px;
+        text-transform: uppercase;
+        text-align: center;
+    
+        margin-top: 5rem;
+        font-size: .8rem;
+        cursor: pointer;
+        margin-left: 2rem;
+        margin-right: 0rem;
+        width: 18.5rem;
+        height: 3rem;
+    }
+
+    .menu-section2.on nav ul a {
+        font-size: 2rem;
+    }
+
+    .sobre{
+        margin-left: 4rem;
+    }
+
+    .servicosmob{
+        margin-left: 3rem;
+    }
+
+    .diffmob{
+        margin-left: 3.5rem;
+    }
+    .rodapemob{
+        width: 30rem;
+    }
+}
+

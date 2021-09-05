@@ -1,2 +1,0 @@
-# estagios
-estagio rocky
